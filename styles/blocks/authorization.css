@@ -1,0 +1,36 @@
+.authorization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: calc(100vh - 24px);
+
+  border-image-source: url('../../assets/images/border.svg');
+  border-image-slice: 34;
+  border-image-width: 40px;
+}
+
+.authorization__form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.authorization__title {
+  margin-bottom: 24px;
+
+  font-family: Roboto;
+  font-weight: 700;
+  color: #363636;
+}
+
+.authorization__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  row-gap: 16px;
+
+  width: 457px;
+}

@@ -1,0 +1,8 @@
+@import url("./base/fonts.css");
+@import url("./base/globals.css");
+@import url("./blocks/authorization.css");
+@import url("./blocks/button.css");
+@import url("./blocks/input.css");
+@import url("./blocks/error-message.css");
+@import url("./blocks/loader.css");
+@import url("./blocks/success-message.css");

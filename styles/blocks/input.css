@@ -1,0 +1,51 @@
+.label {
+  position: relative;
+
+  width: 100%;
+}
+
+.input {
+  position: relative;
+
+  width: 100%;
+  
+  padding: 15px 48px;
+
+  font-size: 14px;
+  font-weight: 400;
+  color: #F65454;
+
+
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  background-color: transparent;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.label::before {
+  content: "";
+
+  position: absolute;
+  top: 11px;
+  left: 11px;
+
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+}
+
+.label--email::before {
+  background-image: url("../../assets/images/user-icon.svg");
+}
+
+.label--password::before {
+  background-image: url("../../assets/images/key-icon.svg");
+}
+
+.label:has(input:disabled) {
+  opacity: 0.6;
+}

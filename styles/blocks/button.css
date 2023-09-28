@@ -1,0 +1,18 @@
+.button {
+  color: #ffffff;
+
+  width: 175px;
+  height: 48px;
+
+  background-color: #B7903B;
+
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.4;
+  cursor: auto;
+}

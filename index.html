@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <main id="authorization" class="authorization">
+    <div class="authorization__form-wrapper">
+      <img src="./assets/images/logo.svg" alt="Логотип">
+      <h2 class="authorization__title">Авторизация</h2>
+      <form id="auth-form" class="authorization__form">
+        <label class="authorization__label label label--email">
+          <input id="login-input" class="authorization__input input" type="text" name="user" placeholder="Email или телефон" required>
+        </label>
+        <label class="authorization__label label label--password">
+          <input id="password-input" class="authorization__input input input--password" name="password" type="password" placeholder="Пароль" required>
+        </label>
+        <button class="authorization__button button">Войти</button>
+      </form>
+    </div>
+  </main>
+  <script src="./scripts/main.js" type="module"></script>
+</body>
+</html>
