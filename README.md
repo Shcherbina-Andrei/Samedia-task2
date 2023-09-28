@@ -1,4 +1,4 @@
-# Тестовое задания Samemedia. Часть 2
+# Тестовое задания Samedia. Часть 2
 
 **Демонстрация:** https://shcherbina-andrei.github.io/Samedia-task2/
 
